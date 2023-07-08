@@ -1,2 +1,17 @@
-# asyncfunctionhandler-npm-package
-My npm package to handle async functions for express routes and other codes.
+## What is this?
+A package which handles the asynchronous function and acts as a middleware.
+
+## Installation
+Run `npm i asyncfunctionhandler`
+
+## Use
+```
+import asyncHandler from "asyncfunctionhandler";
+
+router.get("/", asyncHandler(async (req, res) => {
+    const data = await Data.find();
+    res.send(data);
+}))
+```
+## Parameters
+This implementation of asyncHandler can be used as middleware in your Express routes to handle asynchronous functions and simplify error handling.

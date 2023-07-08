@@ -1,0 +1,13 @@
+{
+  "name": "asyncfunctionhandler",
+  "version": "1.0.0",
+  "description": "Handle asynchronous functions for express routes.",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Harshavardanan M",
+  "license": "ISC"
+}
